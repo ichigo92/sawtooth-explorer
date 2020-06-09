@@ -29,6 +29,8 @@ RUN \
   npm config set https-proxy $https_proxy; \
  fi;
 
+RUN npm i -D @types/lodash@ts2.3
+
 RUN npm run build
 
 RUN mv dist ../
