@@ -24,7 +24,7 @@
 
 export const environment = {
     production: false,
-    apiURL: 'http://rest-api-proxy:8090',
+    apiURL: 'http://rest-api-proxy:8043',
     apiTimeout: 3000
   };
   
